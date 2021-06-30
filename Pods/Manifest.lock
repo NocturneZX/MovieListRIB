@@ -1,0 +1,82 @@
+PODS:
+  - BoringSSL-GRPC (0.0.4):
+    - BoringSSL-GRPC/Implementation (= 0.0.4)
+    - BoringSSL-GRPC/Interface (= 0.0.4)
+  - BoringSSL-GRPC/Implementation (0.0.4):
+    - BoringSSL-GRPC/Interface (= 0.0.4)
+  - BoringSSL-GRPC/Interface (0.0.4)
+  - Differentiator (5.0.0)
+  - gRPC-Core (1.24.2):
+    - gRPC-Core/Implementation (= 1.24.2)
+    - gRPC-Core/Interface (= 1.24.2)
+  - gRPC-Core/Implementation (1.24.2):
+    - BoringSSL-GRPC (= 0.0.4)
+    - gRPC-Core/Interface (= 1.24.2)
+  - gRPC-Core/Interface (1.24.2)
+  - RIBs (0.9.3):
+    - RxRelay (~> 6.0.0)
+    - RxSwift (~> 6.0.0)
+  - RxCocoa (6.0.0):
+    - RxRelay (= 6.0.0)
+    - RxSwift (= 6.0.0)
+  - RxDataSources (5.0.0):
+    - Differentiator (~> 5.0)
+    - RxCocoa (~> 6.0)
+    - RxSwift (~> 6.0)
+  - RxRelay (6.0.0):
+    - RxSwift (= 6.0.0)
+  - RxSwift (6.0.0)
+  - SnapKit (5.0.1)
+  - SwiftGRPC (0.11.0):
+    - gRPC-Core (~> 1.24.1)
+    - SwiftProtobuf (~> 1.7.0)
+  - SwiftProtobuf (1.7.0)
+
+DEPENDENCIES:
+  - RIBs (from `https://github.com/uber/RIBs.git`, branch `master`)
+  - RxCocoa
+  - RxDataSources
+  - SnapKit
+  - SwiftGRPC
+
+SPEC REPOS:
+  trunk:
+    - BoringSSL-GRPC
+    - Differentiator
+    - gRPC-Core
+    - RxCocoa
+    - RxDataSources
+    - RxRelay
+    - RxSwift
+    - SnapKit
+    - SwiftGRPC
+    - SwiftProtobuf
+
+EXTERNAL SOURCES:
+  RIBs:
+    :branch: master
+    :git: https://github.com/uber/RIBs.git
+    :submodules: true
+
+CHECKOUT OPTIONS:
+  RIBs:
+    :commit: 297d19d2c156b89cc1fe81985a0058e35f7d6d92
+    :git: https://github.com/uber/RIBs.git
+    :submodules: true
+
+SPEC CHECKSUMS:
+  BoringSSL-GRPC: b8d2e9fca6d3870aec81ee7d583869caec2a6076
+  Differentiator: e8497ceab83c1b10ca233716d547b9af21b9344d
+  gRPC-Core: 5ca379163f100dfbc55214942ab7d23423513a17
+  RIBs: dd8df1129289d51ed4fec6e2127613d9eaba204e
+  RxCocoa: 3f79328fafa3645b34600f37c31e64c73ae3a80e
+  RxDataSources: aa47cc1ed6c500fa0dfecac5c979b723542d79cf
+  RxRelay: 8d593be109c06ea850df027351beba614b012ffb
+  RxSwift: c14e798c59b9f6e9a2df8fd235602e85cc044295
+  SnapKit: 97b92857e3df3a0c71833cce143274bf6ef8e5eb
+  SwiftGRPC: daeb5abeec734ee2a09072aed3fca1c2341a4869
+  SwiftProtobuf: 4fd9645e69b72cbae6ec8da5be0cdd20ca6565dd
+
+PODFILE CHECKSUM: 3ed9876638ca036a77e5f64d3f6c5209e26a6609
+
+COCOAPODS: 1.10.1
